@@ -86,15 +86,11 @@ project_agricole/
 ### Running the Dashboard
 1. Start the Streamlit dashboard:
    ```bash
-   streamlit run src/dashboard.py
+   streamlit run src/integration_dashboard.py
    ```
 2. Open the dashboard in your browser at `http://localhost:8501`.
 
-### Generating Reports
-1. Use the `report_generator.py` to create detailed analysis reports:
-   ```bash
-   python src/report_generator.py
-   ```
+
 
 ---
 
@@ -115,7 +111,8 @@ project_agricole/
   - Interactive spatial visualizations.
   - Risk heatmaps.
   - Parcel-specific popups.
-
+  
+### `Integration_dashboard.py`
 ---
 
 ## Example Visualizations
@@ -146,13 +143,4 @@ project_agricole/
    ```
 5. Open a pull request.
 
----
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-## Contact
-For questions or support, please contact [Your Name](mailto:your.email@example.com).
 
